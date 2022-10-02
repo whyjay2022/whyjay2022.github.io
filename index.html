@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>First Project</title>
+    </head>
+    <body>
+        <!--HTML의 도움을 활용하려면 input을 div가 아닌 form 안에 위치시켜야함-->
+        <!--form submit의 기본 동작에 새로고침이 있다, keyboard의 enter를 눌러도 동작함-->
+        <form class="hidden" id="login-form">
+            <input required maxlength="15" type="text" placeholder="What is you name?">
+            <button>Log In</button>
+        </form>
+        <h2 id="clock">00:00:00</h2>
+        <h1 class="hidden" id="greeting"></h1>
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required >
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <!-- <a href="https://nomadcoders.co/courses">Go to courses</a> -->
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <script src="JS/greetings.js"></script>
+        <script src="JS/clock.js"></script>
+        <script src="JS/quotes.js"></script>
+        <script src="JS/background.js"></script>
+        <script src="JS/todo.js"></script>
+        <script src="JS/weather.js"></script>
+    </body>
+</html>
