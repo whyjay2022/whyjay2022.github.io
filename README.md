@@ -1,6 +1,8 @@
 # whyjay2022.github.io
  - todo list
  - weather
- - background change
+ - background Img
  - nick name
- - Famous saying
+ - famous saying
+ - temperature
+ - current Time
